@@ -1,0 +1,2 @@
+exiftool.exe -api QuickTimeUTC "-QuickTime:ModifyDate<File:FileCreateDate" "-QuickTime:CreateDate<File:FileCreateDate" "-QuickTime:MediaCreateDate<File:FileCreateDate" "-QuickTime:MediaModifyDate<File:FileCreateDate" "-QuickTime:TrackCreateDate<File:FileCreateDate" "-QuickTime:TrackModifyDate<File:FileCreationDate" -overwrite_original "*.MOV"
+del *.aae
